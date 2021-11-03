@@ -1,5 +1,5 @@
 {
-  "name": "XavyBot",
+  "name": "DragonBot",
   "version": "0.0.2",
   "description": "Only termux",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Xavy",
+  "author": "Dragon",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
@@ -38,10 +38,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OchoaBot/XavyBot.git"
+    "url": "git+https://github.com/OchoaBot/DragonBot2.0.git"
   },
   "bugs": {
-    "url": "https://github.com/OchoaBot/XavyBot.git"
+    "url": "https://github.com/OchoaBot/DragonBot2.0.git"
   },
-  "homepage": "https://github.com/OchoaBot/XavyBot#readme"
+  "homepage": "https://github.com/OchoaBot/DragonBot2.0#readme"
 }
