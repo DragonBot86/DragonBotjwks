@@ -1,10 +1,10 @@
-XavyBot Bot Para Whatsapp by Ochoa
+DragonBot Bot Para Whatsapp by Dragon
 
 <p align="center">
-<img src="https://github.com/Ochoabot/XavyBot/blob/main/temples/ezgif-4-5e4fce2c4bbe.gif" alt="GIF" width="500" height="281"/>
+<img src="https://github.com/Ochoabot/DragonBot.20/blob/main/temples/ezgif-4-5e4fce2c4bbe.gif" alt="GIF" width="500" height="281"/>
 </p>
 <p align="center">
-<a href="#"><img title="XavyBot" src="https://img.shields.io/badge/XavyBot -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
+<a href="#"><img title="DragonBot2.0" src="https://img.shields.io/badge/XavyBot -purple?colorA=%cc33ff&colorB=%cc33ff&style=for-the-badge"></a>
 </p>
 
 <p align="center">
