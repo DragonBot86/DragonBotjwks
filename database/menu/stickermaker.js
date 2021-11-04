@@ -1,4 +1,4 @@
-const stickermaker = (prefix, XavyBot, Ochoa) => {
+const stickermaker = (prefix, ownerBot, botName) => {
 	return `
 「 *${DragonBot}* 」
 
