@@ -1,108 +1,107 @@
 const help = (prefix) => {
 	return `
 
-⌜ *XavyBot By Ochoa* ⌟  
+⌜ DragonBot By Dragón ⌟  
 
-◉ *INFORMACION*
-   ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: Ochoa
+◉ INFORMACION
+   ○ Comando: ⌜ ! ⌟
+   ○ Creador: Dragón
 
-◉ *PARA USAR EL BOT*
-Registrate con el comando ${prefix}daftar y tu nombre
-Ejemplo ${prefix}daftar: Ochoa
+◉ PARA USAR EL BOT
+Registrate con el comando !daftar y tu nombre
+Ejemplo !daftar: Dragón
 
-◉ *NUEVOS COMANDOS*
-○ ${prefix}banmenu
+◉ NUEVOS COMANDOS
+○ !banmenu
 Banear a personas el uso del bot
-○ ${prefix}levelmenu
+○ !levelmenu
 Level para tus grupos
-○ ${prefix}antimenu
+○ !antimenu
 Su nombre lo dice todo (antilink)
-○ ${prefix}otak
+○ !otak
 Monas chinas
-○ ${prefix}shantera
+○ !shantera
 Interactua con el bot
 
-◉ *NUEVOS MENUS*
-○ ${prefix}juegos
+◉ NUEVOS MENUS
+○ !juegos
 Diviértete con tus amigos :)
-○ ${prefix}desmenu
+○ !desmenu
 Descargar musica y videos
-○ ${prefix}creador
+○ !creador
 Conoce el creador del bot
-○ ${prefix}version
+○ !version
 Conoce la versión de tu bot
-○ ${prefix}welmenu
+○ !welmenu
 Comando de bienvenida solo grupos
 
 
-◉ *CREAR STICKERS*
+◉ CREAR STICKERS
   ║
-  ╠ ○ ${prefix}sticker
-  ╠ ○ ${prefix}attp
-  ╠ Mas un texto corto
-  ╠ ○ ${prefix}stickergif
-  ╚ 6 segundos de video
+  ⌿❑ ○ !sticker
+  ⌿❑ ○ !attp
+  ⌿❑ ○ Mas un texto corto
+  ⌿❑ ○ !stickergif
+  ⌿❑ 6 segundos de video
 
-◉ *CONVERTIDORES*
+◉ CONVERTIDORES
   ║
-  ╠ ○ ${prefix}toimg
-  ╠ De sticker a JPG
-  ╠ ○ ${prefix}tomp3
-  ╚ De video a MP3
+  ⌿❑ ○ !toimg
+  ⌿❑ De sticker a JPG
+  ⌿❑ ○ !tomp3
+  ⌿❑ De video a MP3
 
-◉ *AUDIO*
+◉ AUDIO
   ║
-  ╠ ○ ${prefix}idioma
-  ╚ ○ ${prefix}tts es (mas texto)
+  ⌿❑ ○ !idioma
+  ⌿❑○ !tts es (mas texto)
 
-◉ *OTROS*
+◉ OTROS
   ║
-  ╠ ○ ${prefix}wame
-  ╠ Link de Whatsapp
-  ╠ ○ ${prefix}qrcode
-  ╚ Coloca un texto
+  ⌿❑ ○ !wame
+  ⌿❑ Link de Whatsapp
+  ⌿❑ ○ !qrcode
+  ⌿❑ ○ Coloca un texto
 
-◉ *GRUPOS*
+◉ GRUPOS
   ║
-  ╠ ○ ${prefix}unir
-  ╠ Unir a una persona al grupo
-  ╠ ○ ${prefix}foto
-  ╠ Cambiar foto del grupo
-  ╠ ○ ${prefix}name
-  ╠ Cambiar nombre del grupo
-  ╠ ○ ${prefix}des
-  ╠ Cambiar descripcion del grupo
-  ╠ ○ ${prefix}cerrar
-  ╠ Cerrar el grupo solo admins
-  ╠ ○ ${prefix}abrir
-  ╠ Abrir grupo solo admins
-  ╠ ○ ${prefix}alv
-  ╠ Eliminar a un miembro 
-  ╠ ○ ${prefix}promote
-  ╠ Dar admin a un miembro
-  ╠ ○ ${prefix}demote
-  ╠ Quitar el admin
-  ╠ ○ ${prefix}linkgc
-  ╠ Link del grupo
-  ╠ ○ ${prefix}adminlist
-  ╠ Nombra a los admins del grupo
-  ╠ ○ ${prefix}todos
-  ╚ Nombra a todos los del grupo
+  ⌿❑ ○ !unir
+  ⌿❑ Unir a una persona al grupo
+  ⌿❑ ○ !foto
+  ⌿❑ Cambiar foto del grupo
+  ⌿❑ ○ !name
+  ⌿❑ Cambiar nombre del grupo
+  ⌿❑ ○ !des
+  ⌿❑ Cambiar descripcion del grupo
+  ⌿❑ ○ !cerrar
+  ⌿❑ Cerrar el grupo solo admins
+  ⌿❑ ○ !abrir
+  ⌿❑ Abrir grupo solo admins
+  ⌿❑ ○ !alv
+  ⌿❑ Eliminar a un miembro 
+  ⌿❑ ○ !promote
+  ⌿❑ Dar admin a un miembro
+  ⌿❑ ○ !demote
+  ⌿❑ Quitar el admin
+  ⌿❑ ○ !linkgc
+  ⌿❑ Link del grupo
+  ⌿❑ ○ !adminlist
+  ⌿❑ Nombra a los admins del grupo
+  ⌿❑ ○ !todos
+  ⌿❑ Nombra a todos los del grupo
 
 Para usar estas funciones el bot necesita admin
   
-◉ *NSWF* 
+◉ NSWF 
   ║
-  ╚ ○ ${prefix}nsfwmenu
+  ⌿❑ ○ !nsfwmenu
 
-Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desactivar los NSFW coloque ${prefix}nsfw 0
-
-
-No te olvides de seguirme en instagram flaco ;)
+Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los NSFW coloque !nsfw 0
 
 
-_*by Ochoa*_
+
+
+*by Dragón*
 
 
  
