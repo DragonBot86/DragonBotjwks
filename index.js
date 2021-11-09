@@ -255,11 +255,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `HOLAA!! @${num.split('@')[0]} ¿COMO ESTAS?😃\n\n『Bienvenido A *${mdata.subject}*』\n\nUn gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*`
+				teks = `!HOLA ZORRA! @${num.split('@')[0]} ¿CÓMO ESTÁS?🎭\n\n『Bienvenid@ a este grupo llamado *${mdata.subject}*』\n\nPresentarse con Foto, Nombre, Edad Y Pais🎩\n\n_Evita hacer pendejadas y cumple las reglas, ok?🧐_\n\n*NO MANDES TU LINK DE MIERDA🎩*`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYEEEEEEEEEEEE\n\nPUTAAAAAAAAAAAAAAAAAA BARATAAAAAAAAAAAAAA`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE QUE DIOS LO BENDIGA`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -1404,7 +1404,7 @@ break
                 play = body.slice(5)
                 anu = await fetchJson(`https://api.zeks.me/api/ytplaymp3?q=${play}&apikey=20hamilton`)
                 if (anu.error) return reply(anu.error)
-                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Ochoa*_`
+                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Dragon*_`
                 buffer = await getBuffer(anu.result.thumbnail)
                 lagu = await getBuffer(anu.result.url_audio)
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
@@ -1418,7 +1418,7 @@ break
                 play = body.slice(5)
                 anu = await fetchJson(`https://api.zeks.me/api/ytplaymp3?q=${play}&apikey=20shanduy`)
                 if (anu.error) return reply(anu.error)
-                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Ochoa*_`
+                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Dragon*_`
                 buffer = await getBuffer(anu.result.thumbnail)
                 lagu = await getBuffer(anu.result.url_audio)
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
@@ -1432,7 +1432,7 @@ break
 		if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
 		anu = await fetchJson(`https://api.zeks.me/api/ytmp4?apikey=${apikey}&url=${args[0]}`, {method: 'get'})
 		if (anu.error) return reply(anu.error.yt)
-		teks = `*⌜Video Encontrado ✅⌟*\n◉ *Título:* ${anu.result.title} \n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP4 ⚠*\n\n_*Servicio proveido por Ochoa*_`
+		teks = `*⌜Video Encontrado ✅⌟*\n◉ *Título:* ${anu.result.title} \n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP4 ⚠*\n\n_*Servicio proveido por Dragon*_`
 		lagu = await getBuffer(anu.result.thumbnail)
                 client.sendMessage(from, lagu, image, {quoted: mek, caption: teks})
 		buffer = await getBuffer(anu.result.url_video)
@@ -1447,13 +1447,13 @@ break
 case 'reg':
 case 'daftar':
 client.updatePresence(from, Presence.composing)
-if (isUser) return reply('Ya estas registrado pendejo')
-if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}daftar Nombre\n\nEjemplo: ${prefix}daftar Ochoa`)
+if (isUser) return reply('Ya estas registrado')
+if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}daftar Nombre\n\nEjemplo: ${prefix}daftar Dragon`)
 var reg = body.slice(8)
 var nombre = reg.split("|")[0];
 user.push(sender)
 fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`DNI: PUTA BARATA XDXD\`\`\`\n\n\`\`\`Hora COL: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}menu\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
+client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`DNI: ZORRA\`\`\`\n\n\`\`\`Hora MX: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}menu\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
 break
                                 
 //FIN DE REGISTRO  
@@ -1720,50 +1720,18 @@ break
                 default:
                 
 		if (budy.includes(`Bot`)) {
-                  reply(`Dime Mi Qlona`)
+                  reply(`Que paso put@`)
                   }
 		
 		if (budy.includes(`bot`)) {
-                  reply(`Dime Mi Qlona`)
+                  reply(`Que paso put@`)
                   }
 					
 		if (budy.includes(`gracias`)) {
-                  reply(`De Nada, Ahora Se Mia :)`)
+                  reply(`Cual gracias? encuerate`)
                   }			
 					
-		if (budy.includes(`Pene`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }			
-					
-		if (budy.includes(`pene`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }			
-					
-		if (budy.includes(`Verga`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }			
-					
-		if (budy.includes(`verga`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }			
-		
-		if (budy.includes(`Pito`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }
-		
-		if (budy.includes(`pito`)) {
-                  reply(`Te Doy Todos Los Dias`)
-                  }			
-					
-		if (budy.includes(`Contexto`)) {
-                  reply(`Te La Meto Sin Pretexto`)
-                  }			
-					
-		if (budy.includes(`conexto`)) {
-                  reply(`Te La Meto Sin Pretexto`)
-                  }
-					
-		if (budy.includes(`Todo bien`)) {
+	        if (budy.includes(`Todo bien`)) {
                   reply(`Si amig@ todo bien`)
                   }
 
@@ -1776,7 +1744,7 @@ break
                   }
 
 		if (budy.includes(`Gracias`)) {
-                  reply(`De Nada, Ahora Se Mia :)`)
+                  reply(`Cual gracias? encuerate`)
                   }
 
 		if (budy.includes(`Bien gracias y tu?`)) {
@@ -1788,7 +1756,7 @@ break
                   }
                  
 		if (budy.includes(`Fua`)) {
-                  reply(`Que Rico Nea`)
+                  reply(`Fua que wey`)
                   }
 	
 					
