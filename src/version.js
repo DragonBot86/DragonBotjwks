@@ -1,6 +1,6 @@
 const version = (prefix, pushname) => {
     return `
-*XavyBot By Ochoa*
+*DragonBot By Dragon*
 
 *Actualizado:* 10 DE NOVIEMBRE DEL 2021
 *Versión actual:* 1.0
