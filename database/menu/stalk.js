@@ -1,10 +1,10 @@
-const stalk = (prefix, Dragon, DragonBot) => {
+const stalk = (prefix, Ochoa, XavyBot) => {
         return `
-「 *${DragonBot}* 」
+「 *${XavyBot}* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: ${Dragon}
+  ❏ Creator: ${Ochoa}
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
