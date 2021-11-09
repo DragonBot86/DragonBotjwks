@@ -11,7 +11,7 @@ Este comando impide que el baneado use el bot
 
 *ban + a la persona que deseas banear
 
-Ejemplo: *ban @xxxxxxx
+Ejemplo: !ban @xxxxxxx
 
 ══════════════
 
@@ -19,11 +19,11 @@ Ejemplo: *ban @xxxxxxx
 
 *desban + a la persona que deseas desbanear
 
-Ejemplo: *desban @xxxxxxx
+Ejemplo: !desban @xxxxxxx
 
 ══════════════
 
-_*by Ochoa*_
+_*by Dragon*_
 
 `
 
