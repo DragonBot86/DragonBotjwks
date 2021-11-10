@@ -1,11 +1,11 @@
 const help = (prefix) => {
 	return `
 
-⌜ DragonBot By Dragón ⌟  
+⌜ DragonBot By 𝕯𝖗𝖆𝖌𝖔𝖓ꫂ▸ᷫ ᷰ ⷭ ⷦ⁩ ⌟  
 
 ◉ INFORMACION
    ○ Comando: ⌜ ! ⌟
-   ○ Creador: Dragón
+   ○ Creador: 𝕯𝖗𝖆𝖌𝖔𝖓ꫂ▸ᷫ ᷰ ⷭ ⷦ⁩
 
 ◉ PARA USAR EL BOT
 Registrate con el comando !daftar y tu nombre
@@ -101,7 +101,7 @@ Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los
 
 
 
-*by Dragón*
+*by 𝕯𝖗𝖆𝖌𝖔𝖓ꫂ▸ᷫ ᷰ ⷭ ⷦ⁩*
 
 
  
