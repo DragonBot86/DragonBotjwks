@@ -76,7 +76,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:3.0\n' 
             + 'FN:Dragon\n' // Nombre
             + 'ORG:Dragon;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=529626063383:+52 962 606 3383\n' // ID de WhatsApp + número de teléfono
+            + 'TEL;type=CELL;type=VOICE;waid=972524588528:+972 52-458-8528\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
