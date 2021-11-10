@@ -707,7 +707,7 @@ break
 //FIN DE FUNCIONES BAN Y DESBAN					
 					
 					
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/
+/******JUEGOS DRAGÓN LA PUTA MADRE NO TE OLVIDES******/
 					
 case 'gay':
 if (!isUser) return reply(mess.only.daftarB)
@@ -749,7 +749,7 @@ reply('Hubo un error intentalo nuevamente :/')
 }
 break				
 											
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/					
+/******JUEGOS DRAGÓN LA PUTA MADRE NO TE OLVIDES******/					
 					
 					
        				case 'wa.me':
