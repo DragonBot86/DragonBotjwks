@@ -1,4 +1,4 @@
 const config = {
-        botName: 'XavyBot',
-        ownerName: 'Xavy',
+        botName: 'DragonBot',
+        ownerName: 'Dragon',
 }
