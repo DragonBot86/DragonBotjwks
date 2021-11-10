@@ -38,10 +38,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OchoaBot/DragonBot2.0.git"
+    "url": "git+https://github.com/DragonBot86/DragonBot2.0.git"
   },
   "bugs": {
-    "url": "https://github.com/OchoaBot/DragonBot2.0.git"
+    "url": "https://github.com/DragonBot86/DragonBot2.0.git"
   },
-  "homepage": "https://github.com/OchoaBot/DragonBot2.0#readme"
+  "homepage": "https://github.com/DragonBot86/DragonBot2.0#readme"
 }
