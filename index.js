@@ -255,11 +255,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `!HOLA ZORRA! @${num.split('@')[0]} ¿CÓMO ESTÁS?🎭\n\n『Bienvenid@ a este grupo llamado *${mdata.subject}*』\n\nPresentarse con Foto, Nombre, Edad Y Pais🎩\n\n_Evita hacer pendejadas y cumple las reglas, ok?🧐_\n\n*NO MANDES TU LINK DE MIERDA🎩*`
+				teks = '¡HOLA PUTA DE DRAGÓN!! @${num.split('@')[0]} ¿CÓMO ESTÁS?🎩\n\n『Bienvenid@ a este grupo llamado *${mdata.subject}*』\n\nPresentarse con Foto, Nombre, Edad Y Pais🎩\n\n_Evita hacer pendejadas y cumple las reglas, ok?🧐_\n\n*NO MANDES TU LINK DE MIERDA⛧᭄*`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE QUE DIOS LO BENDIGA`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE ZORRA🎩`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -333,7 +333,7 @@ async function starts() {
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
 			const botNumber = client.user.jid
-			const ownerNumber = ["529626063383@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["972524588528@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -359,7 +359,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '529626063383@s.whatsapp.net'
+                        const NomerOwner = '972524588528@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
                         const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
 			
@@ -926,7 +926,7 @@ break
 		
                                        
 				
-			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE SHANDUY TE HIZO TODO ESTO	
+			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE DRAGÓN TE HIZO TODO ESTO	
 				
 				case 'antiwa':
                                         if (!isGroup) return reply(mess.only.group)
@@ -1078,7 +1078,7 @@ break
 					break
 			        
 				
-				//FIN DE ANTILINK HECHO POR OCHOA
+				//FIN DE ANTILINK HECHO POR DRAGÓN
 				
 //ADMINISTRACION DE GRUPOS
 		                
